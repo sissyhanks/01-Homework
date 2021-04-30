@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background-color: #d9dcd6;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+
+/* Styles the Company Name in Header */
+.seo {
+  color: #d9dcd6;
+}
+
+/* Styles Nav List Elements */
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-list .nav-list-item {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+/* Styles Title image */
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Styles Main Elements */
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.content .content-section {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.content .content-section .content-section-heading {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.content .content-section .content-img-float-left {
+  float: left;
+  margin-right: 25px;
+  max-height: 200px;
+}
+
+.content .content-section .content-img-float-right {
+  float: right;
+  margin-left: 25px;
+  max-height: 200px;
+}
+
+/* Styles Right Aside Elements */
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+}
+
+.benefits .benefit-section {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+.benefits .benefit-section .benefit-section-heading {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.benefits .benefit-section .benefit-section-img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+/* Styles Footer elements */
+.footer-heading {
+  font-size: 20px;
+}
